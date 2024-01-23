@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap 5.3.0 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 独自スタイルシート -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- 作成者情報 -->
+    <meta name="description" content="自己紹介サイト" />
+    <meta name="author" content="log2-2" />
+
+    <title>聖地巡礼</title>
+  </head>
+  <body>
+    <!-- header挿入 -->
+    <header id="header"></header>
+    <main>
+      <div class="text-center">
+        <h2 class="m-0 py-5">【　聖地巡礼　】</h2>
+      </div>
+      <div class="container-fluid text-center p-0">
+        <div class="row justify-content-center pb-3 m-0">
+          <p class="col-md-auto m-0 p-0">静岡県沼津市に行きました。</p>
+        </div>
+        <div class="row justify-content-center pb-3 m-0">
+          <p class="col-md-auto m-0 p-0">平日なので人が少なく、</p>
+          <p class="col-md-auto m-0 p-0">ゆっくりと巡ることができました。</p>
+        </div>
+      </div>
+
+      <div class="container-fluid pt-3">
+        <div class="row px-3">
+          <div
+            class="card p-0 col-auto w-100"
+            style="max-width: 700px; border: none"
+          >
+            <div class="card-header m-0 p-0 d-flex">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a href="#card1" class="nav-link active" data-bs-toggle="tab"
+                    >沼津市街</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#card2" class="nav-link" data-bs-toggle="tab"
+                    >内浦</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#card3" class="nav-link" data-bs-toggle="tab"
+                    >淡島</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content m-0">
+              <div id="card1" class="card-body tab-pane p-0 active">
+                <div
+                  id="carousel1"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-pause="none"
+                >
+                  <div class="carousel-inner ratio ratio-1x1">
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/bus-normal.jpg"
+                        class="d-block square-image p-3"
+                        alt="ラブライブ！サンシャイン!! X 東海バス"
+                      />
+                    </div>
+                    <div class="carousel-item active">
+                      <img
+                        src="images/favorite/viewo.jpg"
+                        class="d-block square-image p-3"
+                        alt="沼津港大型展望水門「びゅうお」"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/lailaps-lalaportjpg.jpg"
+                        class="d-block square-image p-3"
+                        alt="ライラプス at ララポート沼津"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/manhole-ruby.jpg"
+                        class="d-block square-image p-3"
+                        alt="マンホール「黒澤ルビィ」"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/numazu-burger.jpg"
+                        class="d-block square-image p-3"
+                        alt="沼津バーガー"
+                      />
+                    </div>
+                  </div>
+                  <a
+                    class="carousel-control-prev"
+                    href="#carousel1"
+                    role="button"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <!-- <span>前へ</span> -->
+                  </a>
+                  <a
+                    class="carousel-control-next"
+                    href="#carousel1"
+                    role="button"
+                    data-bs-slide="next"
+                  >
+                    <!-- <span>次へ</span> -->
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                  </a>
+                </div>
+              </div>
+              <div id="card2" class="card-body tab-pane p-0">
+                <div
+                  id="carousel2"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-pause="none"
+                >
+                  <div class="carousel-inner ratio ratio-1x1">
+                    <div class="carousel-item active">
+                      <img
+                        src="images/favorite/nagahama-castle-ruins.jpg"
+                        class="d-block square-image p-3"
+                        alt="長浜城跡"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/mary-fell-down.jpg"
+                        class="d-block square-image p-3"
+                        alt="小原鞠莉が転んだ場所"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/mito-kaisuiyokujo.jpg"
+                        class="d-block square-image p-3"
+                        alt="三津海水浴場"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/uranohoshi-bus-stop.jpg"
+                        class="d-block square-image p-3"
+                        alt="バス停留所「浦の星女学院前」"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/uranohoshi-school.jpg"
+                        class="d-block square-image p-3"
+                        alt="浦の星女学院正門"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/awashima-riku.jpg"
+                        class="d-block square-image p-3"
+                        alt="淡島"
+                      />
+                    </div>
+                  </div>
+                  <a
+                    class="carousel-control-prev"
+                    href="#carousel2"
+                    role="button"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <!-- <span>前へ</span> -->
+                  </a>
+                  <a
+                    class="carousel-control-next"
+                    href="#carousel2"
+                    role="button"
+                    data-bs-slide="next"
+                  >
+                    <!-- <span>次へ</span> -->
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                  </a>
+                </div>
+              </div>
+              <div id="card3" class="card-body tab-pane p-0">
+                <div
+                  id="carousel3"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-pause="none"
+                >
+                  <div class="carousel-inner ratio ratio-1x1">
+                    <div class="carousel-item active">
+                      <img
+                        src="images/favorite/hotel-ohara.jpg"
+                        class="d-block square-image p-3"
+                        alt="ホテルオハラ"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/oxygen-tank.jpg"
+                        class="d-block square-image p-3"
+                        alt="酸素ボンベ"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/awashima-shrine-entrance.jpg"
+                        class="d-block square-image p-3"
+                        alt="淡島神社入口"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/uranohoshi-awashima.jpg"
+                        class="d-block square-image p-3"
+                        alt="浦の星女学院"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/awashima-shrine.jpg"
+                        class="d-block square-image p-3"
+                        alt="淡島神社"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/heliport-awashima.jpg"
+                        class="d-block square-image p-3"
+                        alt="ヘリポート・海軍淡島桟橋"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="images/favorite/blue-cave-awashima.jpg"
+                        class="d-block square-image p-3"
+                        alt="Blue Cave"
+                      />
+                    </div>
+                  </div>
+                  <a
+                    class="carousel-control-prev"
+                    href="#carousel3"
+                    role="button"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <!-- <span>前へ</span> -->
+                  </a>
+                  <a
+                    class="carousel-control-next"
+                    href="#carousel3"
+                    role="button"
+                    data-bs-slide="next"
+                  >
+                    <!-- <span>次へ</span> -->
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="text-center pt-3">
+            <span id="current-description"></span>
+          </p>
+        </div>
+      </div>
+    </main>
+    <div class="pb-5"></div>
+    <!-- footer挿入 -->
+    <footer id="footer"></footer>
+
+    <!-- header取得 -->
+    <script src="components/header.js"></script>
+
+    <!-- footer取得 -->
+    <script src="components/footer.js"></script>
+
+    <!-- jQuery 取得 -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- BootstrapScript取得 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 独自JavaScript取得 -->
+    <script src="js/carouselDescription.js"></script>
+  </body>
+</html>
